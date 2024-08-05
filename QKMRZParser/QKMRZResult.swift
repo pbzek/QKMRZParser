@@ -3,7 +3,7 @@
 //  QKMRZParser
 //
 //  Created by Matej Dorcak on 14/10/2018.
-//
+//  Edited by pbzek
 
 import Foundation
 
