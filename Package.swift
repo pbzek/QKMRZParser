@@ -12,15 +12,11 @@ let package = Package(
             targets: ["QKMRZParser"]
         ),
     ],
+    dependencies: [],
     targets: [
         .target(
             name: "QKMRZParser",
-            path: "Sources/QKMRZParser"
-        ),
-        .testTarget(
-            name: "QKMRZParserTests",
-            dependencies: ["QKMRZParser"],
-            path: "Tests/QKMRZParserTests"
-        ),
+            path: "QKMRZParser"
+        )
     ]
 )
